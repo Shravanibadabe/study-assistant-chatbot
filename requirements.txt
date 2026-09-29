@@ -1,0 +1,7 @@
+Flask
+google-genai
+python-dotenv
+psycopg2-binary
+scikit-learn
+nltk
+gunicorn

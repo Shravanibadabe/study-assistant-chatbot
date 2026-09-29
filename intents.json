@@ -1,0 +1,281 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": [
+        "hello",
+        "hi",
+        "hey",
+        "good morning",
+        "good evening",
+        "hello chatbot",
+        "hi assistant"
+      ],
+      "responses": [
+        "Hello! How can I help you with your studies?",
+        "Hi! Ask me anything related to your studies.",
+        "Hello! I am your Study Assistant."
+      ]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": [
+        "bye",
+        "goodbye",
+        "see you",
+        "see you later",
+        "I have to go",
+        "exit"
+      ],
+      "responses": [
+        "Goodbye! Keep studying and do your best!",
+        "See you later! All the best for your studies!",
+        "Bye! Keep learning!"
+      ]
+    },
+    {
+      "tag": "thanks",
+      "patterns": [
+        "thank you",
+        "thanks",
+        "thank you so much",
+        "thanks assistant",
+        "that was helpful",
+        "very helpful"
+      ],
+      "responses": [
+        "You're welcome!",
+        "Glad I could help!",
+        "You're welcome! Keep learning."
+      ]
+    },
+    {
+      "tag": "machine_learning",
+      "patterns": [
+        "what is machine learning",
+        "define machine learning",
+        "explain machine learning",
+        "tell me about machine learning",
+        "what do you mean by machine learning",
+        "machine learning meaning"
+      ],
+      "responses": [
+        "Machine Learning is a branch of Artificial Intelligence that enables computers to learn patterns from data and make predictions or decisions without being explicitly programmed for every task."
+      ]
+    },
+    {
+      "tag": "artificial_intelligence",
+      "patterns": [
+        "what is artificial intelligence",
+        "what is AI",
+        "define AI",
+        "explain artificial intelligence",
+        "AI meaning",
+        "tell me about AI"
+      ],
+      "responses": [
+        "Artificial Intelligence is a branch of computer science that enables machines to perform tasks that normally require human intelligence, such as learning, reasoning, understanding language and recognizing patterns."
+      ]
+    },
+    {
+      "tag": "data_science",
+      "patterns": [
+        "what is data science",
+        "define data science",
+        "explain data science",
+        "data science meaning",
+        "what does a data scientist do",
+        "tell me about data science"
+      ],
+      "responses": [
+        "Data Science is an interdisciplinary field that uses statistics, programming, machine learning and data analysis to extract useful insights and knowledge from data."
+      ]
+    },
+    {
+      "tag": "python",
+      "patterns": [
+        "what is python",
+        "why learn python",
+        "python programming",
+        "tell me about python",
+        "what is python used for",
+        "advantages of python"
+      ],
+      "responses": [
+        "Python is a high-level, interpreted programming language known for its simple syntax. It is widely used in web development, data science, artificial intelligence, machine learning and automation."
+      ]
+    },
+    {
+      "tag": "supervised_learning",
+      "patterns": [
+        "what is supervised learning",
+        "explain supervised learning",
+        "define supervised learning",
+        "supervised machine learning",
+        "give me supervised learning definition"
+      ],
+      "responses": [
+        "Supervised Learning is a type of machine learning where a model learns from labelled training data. Common examples include classification and regression."
+      ]
+    },
+    {
+      "tag": "unsupervised_learning",
+      "patterns": [
+        "what is unsupervised learning",
+        "explain unsupervised learning",
+        "define unsupervised learning",
+        "unsupervised machine learning",
+        "give me unsupervised learning definition"
+      ],
+      "responses": [
+        "Unsupervised Learning is a type of machine learning where the model works with unlabeled data and discovers hidden patterns or structures. Clustering is a common example."
+      ]
+    },
+    {
+      "tag": "classification",
+      "patterns": [
+        "what is classification",
+        "explain classification",
+        "classification in machine learning",
+        "define classification",
+        "what is classification algorithm"
+      ],
+      "responses": [
+        "Classification is a supervised machine learning technique used to assign data to predefined categories or classes. Examples include spam detection and disease classification."
+      ]
+    },
+    {
+      "tag": "regression",
+      "patterns": [
+        "what is regression",
+        "explain regression",
+        "regression in machine learning",
+        "define regression",
+        "what is regression algorithm"
+      ],
+      "responses": [
+        "Regression is a supervised machine learning technique used to predict continuous numerical values, such as house prices, temperature or sales."
+      ]
+    },
+    {
+      "tag": "deep_learning",
+      "patterns": [
+        "what is deep learning",
+        "define deep learning",
+        "explain deep learning",
+        "deep learning meaning",
+        "what is neural network learning"
+      ],
+      "responses": [
+        "Deep Learning is a subset of Machine Learning that uses artificial neural networks with multiple layers to learn complex patterns from large amounts of data."
+      ]
+    },
+    {
+      "tag": "nlp",
+      "patterns": [
+        "what is NLP",
+        "what is natural language processing",
+        "define NLP",
+        "explain natural language processing",
+        "NLP meaning",
+        "what is natural language processing used for"
+      ],
+      "responses": [
+        "Natural Language Processing, or NLP, is a field of AI that enables computers to understand, process and generate human language."
+      ]
+    },
+    {
+      "tag": "database",
+      "patterns": [
+        "what is a database",
+        "define database",
+        "explain database",
+        "what is DBMS",
+        "what is database management system",
+        "database meaning"
+      ],
+      "responses": [
+        "A database is an organized collection of data that can be stored, managed and retrieved efficiently. A DBMS is software used to manage databases."
+      ]
+    },
+    {
+      "tag": "cybersecurity",
+      "patterns": [
+        "what is cybersecurity",
+        "define cybersecurity",
+        "explain cybersecurity",
+        "cyber security meaning",
+        "what is cyber security",
+        "tell me about cybersecurity"
+      ],
+      "responses": [
+        "Cybersecurity is the practice of protecting computers, networks, applications and data from unauthorized access, attacks, damage or theft."
+      ]
+    },
+    {
+      "tag": "study_tips",
+      "patterns": [
+        "give me study tips",
+        "how should I study",
+        "how can I study better",
+        "study tips",
+        "help me study",
+        "how to prepare for exams"
+      ],
+      "responses": [
+        "Create a realistic study schedule, understand concepts instead of only memorizing, practice previous questions, revise regularly and take short breaks while studying."
+      ]
+    },
+    {
+      "tag": "exam_preparation",
+      "patterns": [
+        "how to prepare for exam",
+        "exam preparation tips",
+        "how can I prepare for exams",
+        "help me prepare for exam",
+        "how to score good marks",
+        "exam study plan"
+      ],
+      "responses": [
+        "For exam preparation, first understand the syllabus, divide topics into smaller sections, study important concepts, practice previous questions and reserve time for revision."
+      ]
+    },
+    {
+      "tag": "motivation",
+      "patterns": [
+        "motivate me",
+        "I don't feel like studying",
+        "I am tired of studying",
+        "give me motivation",
+        "I cannot study",
+        "study motivation"
+      ],
+      "responses": [
+        "Start with just one small topic. Completing small goals builds confidence and makes studying easier. You can do it!",
+        "Don't focus on finishing everything at once. Take one topic at a time and keep moving forward."
+      ]
+    },
+    {
+      "tag": "quiz",
+      "patterns": [
+        "give me a quiz",
+        "start quiz",
+        "quiz me",
+        "ask me a question",
+        "test my knowledge",
+        "give me questions"
+      ],
+      "responses": [
+        "Sure! Here's a question: Which type of machine learning uses labelled data? A) Supervised Learning B) Unsupervised Learning C) Reinforcement Learning"
+      ]
+    },
+    {
+      "tag": "fallback",
+      "patterns": [],
+      "responses": [
+        "I'm not sure about that. Try asking me about AI, Machine Learning, Data Science, Python, NLP, Cybersecurity or study tips.",
+        "I don't understand that question yet. Please try asking it in a different way."
+      ]
+    }
+  ]
+}
